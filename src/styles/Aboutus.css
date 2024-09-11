@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.about-cont{
+    height: 746px;
+    font-family: "DM Mono", monospace;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.about-title h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #B79901;
+}
+
+.about-title h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000000;
+}
+.about-title {
+    width: 560px;
+    gap: 20px;
+}
+.about-content{
+    display: flex;
+    height: 450px;
+    gap: 30px;
+}
+.about-img{
+    background-image: url('../images/homeguy.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 447px;
+    width: 657px;
+    border-radius: 6px;
+    border-color: #B79901;
+    border-width: 2px;
+    border-style: dashed;
+}
+.about-content2{
+    padding-top: 30px;
+    gap: 10px;
+}
+.about-images{
+    display: flex;
+    gap: 20px;
+}
+.camera{
+    background-image: url('../images/cctv2.jpg'); /* Replace with your image path */
+    width: 103px;
+    height: 135px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+.kwh{
+    background-image: url('../images/cctv.jpg'); /* Replace with your image path */
+    width: 340px;
+    height: 135px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    border-color: #B79901;
+    border: 2px; /* 2px thickness, solid style, black color */
+}
+.ab-text{
+    margin-top: 20px;
+    width: 463px;
+    height: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.ab-btn{
+    margin-top: 20px;
+    background-color: #B79901;
+    color: white;
+    width: 140px;
+    height: 54px;
+    border-radius: 100px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.phone-ab{
+    display: none;
+}
+@media (max-width: 768px) {
+    .about-title {
+        width: auto;
+        gap: 20px;
+        text-align: center;
+    }
+    .about-title h1{
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        color: #B79901;
+    }
+    
+    .about-title h2{
+        font-size: 24px;
+        font-weight: 500;
+        color: #000000;
+    }
+    .about-cont{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+    }
+    .about-img{
+        display: none;
+    }
+    .kwh{
+        width: 240px;
+        height: 135px;
+    }
+    .about-content2{
+        width: auto;
+    }
+    .ab-text{
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .phone-ab
+    {
+        display: flex;
+        width: auto;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .ab-btn{
+        margin-top: 20px;
+        display: flex;
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 116px;
+        height: 28px;
+        border-radius: 100px;
+        padding: 22px, 32px, 22px, 32px;
+        gap: 10px;
+        color: white;
+        background-color: #B79901;
+    }
+}

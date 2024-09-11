@@ -1,0 +1,131 @@
+.hero-container{
+    height: 734px;
+}
+.hero-back{
+    background-image: url('../images/header.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align:left;
+    position: relative;
+    z-index: 1; /* Ensure content is on top */
+}
+.hero-title{
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 31px;
+    color: white;
+    width: 500px;
+    margin-left: 200px;
+}
+.contact-us-btn{
+    margin-top: 20px;
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 184px;
+    height: 41px;
+    border-radius: 100px;
+    padding: 22px, 32px, 22px, 32px;
+    gap: 10px;
+    color: white;
+    background-color: #B79901;
+    margin-left: 200px;
+
+}
+.num-proj{
+    height: 288px;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "DM Mono", monospace;
+    gap: 250px;
+}
+.comp-project{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.fifty{
+    width: 120px;
+    height: 98px;
+}
+.fifty h1{
+    font-size: 48px;
+}
+.fifty p{
+    font-size: 12px;
+}
+.samp-vid{
+    border-radius: 8.71px;
+    width: 420px;
+    height: 148px;
+    background-image: url('../images/cctv.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+.play-btn{
+    margin-top: 77px;
+    margin-left: 237px;
+    background-color: white;
+    width: 175px;
+    height: 41px;
+    border-radius: 145px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #B79901;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .hero-title{
+        font-family: "DM Mono", monospace;
+        font-weight: 500;
+        font-size: 24px;
+        color: white;
+        width: 342px;
+        margin-left: 20px;
+    }
+    .contact-us-btn{
+        margin-top: 20px;
+        display: flex;
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 116px;
+        height: 28px;
+        border-radius: 100px;
+        padding: 22px, 32px, 22px, 32px;
+        gap: 10px;
+        color: white;
+        background-color: #B79901;
+        margin-left: 20px;
+    }
+    .num-proj{
+        height: 140px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: none;
+    }
+    .hero-container{
+        height: 480px;
+    }
+}

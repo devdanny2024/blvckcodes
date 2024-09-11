@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.why-cont{
+    height: 900px;
+    font-family: "DM Mono", monospace;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.why-title h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #B79901;
+}
+
+.why-title h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000000;
+}
+.content-w{
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line if they exceed the container width */
+    gap: 20px;
+}
+.content-why{
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust width for three items per row with gap */
+    box-sizing: border-box;
+}
+.w-cont-title h1{
+    color: #B79901;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.w-cont-title h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18;
+}
+.why-content{
+    line-height: 26px;
+}
+.phone-w{
+    display: none;
+}
+@media (max-width: 768px) {
+    .why-cont{
+        height: auto;
+        font-family: "DM Mono", monospace;
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 1px;
+    }
+    .why-title {
+        width: auto;
+        gap: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .why-title h1{
+        font-family: "Manrope", sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        color: #B79901;
+    }
+    
+    .why-title h2{
+        font-size: 24px;
+        font-weight: 500;
+        color: #000000;
+    }
+    .content-w{
+        display: none;
+    }
+    .phone-w{
+        display: flex;
+        flex-direction: column;
+    }
+    .lists-t{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}

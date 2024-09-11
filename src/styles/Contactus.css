@@ -1,0 +1,125 @@
+.contact-cont{
+    height: 1100px;
+    font-family: "DM Mono", monospace;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.contact-form input{
+    width: 560px;
+    height: 46px;
+    margin-bottom: 30px;
+}
+.contact-form select{
+    width: 560px;
+    height: 46px;
+    margin-bottom: 30px;
+
+}
+.contact-form p{ 
+    margin-bottom: 10px;
+}
+.contact-form textarea{ 
+    margin-bottom: 10px;
+    width: 560px;
+    height: 165px;
+}
+.contact-btn{
+    width: 560px;
+    height: 46px;
+    background-color: #B79901;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contact-content h1{
+    font-size: 64px;
+    font-family: "DM Mono", monospace;
+}
+.contact-content p{
+    font-size: 16px;
+    line-height: 146%;
+}
+.contact-img{
+    background-image: url('../images/homeguy.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 559px;
+    border-radius: 6px;
+    border-color: #B79901;
+    border-width: 2px;
+    border-style: dashed;
+}
+.contact-form h1{
+    display: none;
+}
+.loader {
+    border: 4px solid #f3f3f3; /* Light gray */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite; /* Spinner animation */
+    display: inline-block;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+@media (max-width: 768px) {
+    .contact-cont{
+        height: auto;
+        font-family: "DM Mono", monospace;
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 1px;
+        display: flex;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+.contact-content{
+    display: none;
+}
+
+.contact-form h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 40px;
+}  
+.contact-form input{
+    width: 363px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.contact-form select{
+    width: 363px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.contact-form textarea{ 
+    width: 363px;
+    height: 110px;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    width: 363px;
+    height: 40px;
+
+}
+}

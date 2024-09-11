@@ -1,0 +1,46 @@
+.pack-cont{
+    background-color: #F4F4FF;
+    height: 640px;
+    font-family: "DM Mono", monospace;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.pack-cont h1{
+    font-size: 15px;
+    color: #B79901;
+}
+.pack-cont h2{
+    font-size: 49px;
+}
+.package-btn{
+    width: 120px;
+    height: 35px;
+    background-color: #B79901;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.package-cont{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .pack-cont{
+        display: none;
+    }
+
+}
