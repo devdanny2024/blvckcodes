@@ -27,17 +27,19 @@ function Header() {
                 </div>
             </div>
             <div className='samp-vid'>
-                <div className='play-btn'>
-                    <div className='play'>
-                    <Image
-                    src="/images/play-btn.png" // Path relative to the 'public' folder
-                    alt="Example Image"
-                    width={20} // Specify width
-                    height={20} // Specify height
-                    />
+                <a href="https://youtu.be/dKIywM3_bHQ?si=1gGcU4LcbJDt8rw4" target="_blank" rel="noopener noreferrer">
+                    <div className='play-btn'>
+                        <div className='play'>
+                            <Image
+                            src="/images/play-btn.png" // Path relative to the 'public' folder
+                            alt="Example Image"
+                            width={20} // Specify width
+                            height={20} // Specify height
+                            />
+                        </div>
+                        <p>How it works</p>
                     </div>
-                    <p>How it works</p>
-                </div>
+                </a>
             </div>
         </div>
    </div>
