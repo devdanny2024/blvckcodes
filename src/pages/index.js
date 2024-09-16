@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Blvck Code - Smart Home Solutions</title>
         <meta name="description" content="Enhance your home's capabilities with smart home solutions." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../images/bc.png" />
       </Head>
       
       <Navbar />
