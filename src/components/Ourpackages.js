@@ -10,29 +10,36 @@ function Ourpackages() {
             <div className='Helios'>
                 <h1>Helios Package</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Designed for 2-bedroom homes. Automate lighting, air conditioning, and access control for seamless living.
                  </p>
             </div>
             <div className='Helios'>
-                <h1>Helios Package</h1>
+                <h1>Hermes Package</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Perfect for 3-bedroom setups, including living room and kitchen. Features smart lighting, air conditioning, and access control.
                  </p>
             </div>
             <div className='Helios'>
-                <h1>Helios Package</h1>
+                <h1>Zeus Package</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                For 4-bedroom homes with added luxury. Includes curtain control, lighting, air conditioning, and access control.
                  </p>
+            </div>
+            <div className='Helios'>
+                <h1>Zeus Package</h1>
+                <p>
+                Looking for something custom? Contact us at 0913 130 0627 to build your unique smart home solution.
+                </p>
             </div>
         </div>
+        <a 
+                    href="https://wa.me/23491300627?text=Hello,%20I%20am%20interested%20in%20your%20smart%20home%20automation%20devices!" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+        >
         <div className='package-btn'>Contact us</div>
+        </a>
 
     </div>
     </>
