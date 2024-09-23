@@ -26,7 +26,7 @@ function Ourpackages() {
                  </p>
             </div>
             <div className='Helios'>
-                <h1>Zeus Package</h1>
+                <h1>Developers Package</h1>
                 <p>
                 Looking for something custom? Contact us at 0913 130 0627 to build your unique smart home solution.
                 </p>
