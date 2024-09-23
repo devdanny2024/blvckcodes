@@ -9,7 +9,7 @@ function Aboutus() {
             <h2> MAKE YOUR HOME DO MORE FOR YOU</h2>
         </div>
         <div className='about-content'>
-            <div className='about-img'></div>
+            <div className='about-imgg'></div>
             <div className='about-content2'>
                 <div className='about-images'> 
                     <div className='camera'></div>
