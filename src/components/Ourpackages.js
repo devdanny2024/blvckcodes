@@ -33,7 +33,7 @@ function Ourpackages() {
             </div>
         </div>
         <a 
-                    href="https://wa.me/23491300627?text=Hello,%20I%20am%20interested%20in%20your%20smart%20home%20automation%20devices!" 
+                    href="https://wa.me/2349131300627?text=Hello,%20I%20am%20interested%20in%20your%20smart%20home%20automation%20devices!" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     style={{ textDecoration: 'none', color: 'inherit' }}
