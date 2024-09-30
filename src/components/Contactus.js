@@ -86,7 +86,13 @@ function Contact() {
               <option value="Finished">Finished</option>
               <option value="Others">Others</option>
             </select>
-            
+            <p>How did you hear about us?</p>
+            <select name="buildingStatus" value={formData.buildingStatus} onChange={handleChange} required>
+              <option value="" disabled>Select an Option</option>
+              <option value="Under Construction">Under Construction</option>
+              <option value="Finished">Finished</option>
+              <option value="Others">Others</option>
+            </select>
             <p>Additional Message</p>
             <textarea
               name="message"
