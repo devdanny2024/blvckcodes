@@ -18,7 +18,7 @@ function Footer() {
                         button tap, touch on digital screens and even new generation remotes.
                     </p>
                     <div className='socials'>
-                    <a href='https://www.instagram.com/blvckcode.io?igsh=b255cmw1ZGw2Zm9x' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.instagram.com/blvckcode_io?igsh=MTZ5OWh4enl4Y3d1MQ==' target="_blank" rel="noopener noreferrer">
                         <Image 
                         src="/images/instagram.png" // Path relative to the 'public' folder
                         alt="Example Image"
