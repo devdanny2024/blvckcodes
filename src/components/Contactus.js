@@ -9,6 +9,7 @@ function Contact() {
     number: '',
     houseType: '',
     buildingStatus: '',
+    hearAbout: '',
     message: '',
   });
   const [loading, setLoading] = useState(false); // Loading state for loader
@@ -51,6 +52,7 @@ function Contact() {
       number: '',
       houseType: '',
       buildingStatus: '',
+      hearAbout: '',
       message: '',
     });
   };
@@ -87,10 +89,11 @@ function Contact() {
               <option value="Others">Others</option>
             </select>
             <p>How did you hear about us?</p>
-            <select name="buildingStatus" value={formData.buildingStatus} onChange={handleChange} required>
+            <select name="hearAbout" value={formData.hearAbout} onChange={handleChange} required>
               <option value="" disabled>Select an Option</option>
-              <option value="Under Construction">Under Construction</option>
-              <option value="Finished">Finished</option>
+              <option value="Under Construction">Instagram</option>
+              <option value="Finished">Youtube</option>
+              <option value="Others">Google</option>
               <option value="Others">Others</option>
             </select>
             <p>Additional Message</p>
